@@ -37,9 +37,7 @@ export default function Contact() {
         setToast({ type: 'error', text: data.message || 'Failed to send message. Please try again.' });
       }
     } catch (err) {
-      // Fallback client simulation if server is unreachable
-      setToast({ type: 'success', text: 'Thank you! Your message has been sent successfully.' });
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      setToast({ type: 'error', text: 'Unable to reach the server. Please try again or email me directly.' });
     } finally {
       setLoading(false);
     }
