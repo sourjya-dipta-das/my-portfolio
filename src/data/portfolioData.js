@@ -11,9 +11,9 @@ export const personalInfo = {
   bio: "Passionate Computer Science & Engineering student and Full-Stack Developer specializing in modern MERN stack applications, RESTful API architecture, and database management. Driven by clean code, structured problem solving, and building scalable web solutions for real-world impact.",
   heroSummary: "CSE Student & Full-Stack Developer crafting efficient web applications with React, Node.js, Express, and MongoDB. Focused on clean architecture and high-performance user experiences.",
   stats: [
-    { label: "Full-Stack Projects", value: "8+" },
-    { label: "Tech Stack Mastered", value: "12+" },
-    { label: "DSA & Problem Solving", value: "250+ Solved" },
+    { label: "Full-Stack Projects", value: "2+" },
+    { label: "Tech Stack Mastered",  },
+    { label: "DSA & Problem Solving", },
     { label: "Degree Progress", value: "B.Tech CSE" }
   ]
 };
@@ -32,33 +32,33 @@ export const skillsData = [
     category: "Backend Development",
     skills: [
       { name: "Node.js", level: 82, icon: "Server" },
-      { name: "Express.js", level: 85, icon: "Cpu" },
-      { name: "REST APIs", level: 88, icon: "Globe" }
+      { name: "Express.js",level: 85, icon: "Cpu" },
+      { name: "REST APIs",}
     ]
   },
   {
     category: "Database & Storage",
     skills: [
-      { name: "MongoDB", level: 80, icon: "Database" },
-      { name: "SQL / Relational DBs", level: 75, icon: "Table" }
+      { name: "MongoDB", icon: "Database" },
+      { name: "SQL ", }
     ]
   },
   {
     category: "Programming Languages",
     skills: [
-      { name: "C / C++", level: 85, icon: "Binary" },
-      { name: "Python", level: 80, icon: "Terminal" },
-      { name: "Java", level: 78, icon: "Coffee" },
-      { name: "JavaScript", level: 88, icon: "FileCode" }
+      { name: "C",  },
+      { name: "Python", },
+      { name: "Java", },
+      { name: "JavaScript",  }
     ]
   },
   {
     category: "Tools & Version Control",
     skills: [
-      { name: "Git & GitHub", level: 88, icon: "GitBranch" },
-      { name: "VS Code", level: 95, icon: "Laptop" },
-      { name: "Postman", level: 85, icon: "Send" },
-      { name: "npm / Vite", level: 90, icon: "Package" }
+      { name: "Git & GitHub", },
+      { name: "VS Code", },
+      { name: "Postman", },
+      { name: "npm / Vite",  }
     ]
   }
 ];
